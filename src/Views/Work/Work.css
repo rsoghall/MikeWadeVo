@@ -1,0 +1,28 @@
+#work {
+    padding-top: 30rem;
+    width: 100vw;
+    /* height: 20rem; */
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: Helvetica;
+    /* color: white; */
+    scroll-behavior: smooth;
+    background-image: 
+        url("../../images/voWork5.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        /* margin-bottom: 1rem; */
+        
+}
+
+#work h2 {
+    /* border: 5px solid green; */
+    /* position: absolute; */
+    width: 100vw;
+    margin-top: -25rem;
+    /* height: 20rem; */
+    /* text-align: center; */
+
+}
