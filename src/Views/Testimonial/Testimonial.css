@@ -1,0 +1,58 @@
+.Testimonials {
+  /* border: solid 5px green; */
+    width: 100%;
+    height: 6rem;
+    margin-top: 5rem;
+    text-align: center;
+  }
+
+  .Testimonials h1 {
+    width: 100%;
+    color: white;
+    position: absolute;
+    font-size: 7rem;
+    font-weight: bold;
+    margin-top: auto; 
+  }
+
+  .Testimonials img {
+    width: 100%;
+    height: 9rem;
+  }
+
+  .Testimonials-text {
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+  }
+
+  .Testimonial1 {
+    margin-left: 10rem;
+    width: 75%;
+    line-height: 32px;
+  }
+
+  .Testimonial1-sig1 {
+    margin-top: .75rem;
+    margin-left: 20rem;
+  }
+
+  .Testimonial2 {
+    margin-right: 10rem;
+    line-height: 32px;
+    width: 75%;
+  }
+
+  .Testimonial2-sig2 {
+    margin-top: .75rem;
+    margin-left: 17rem;
+  }
+
+  .Testimonial-available {
+    margin-top: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:2.5rem;
+  }

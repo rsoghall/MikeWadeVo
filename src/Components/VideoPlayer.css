@@ -1,14 +1,7 @@
 .player-wrapper {
-    width: 100vw;
-    /* height: 20rem; */
+    width: 100%;
     display: flex;
     justify-content: center;
-    /* position: relative; */
-    /* padding-top: 2 Player ratio: 100 / (1280 / 720) */
+    
 }
 
-/* .react-player {
-    position: absolute;
-    top: 0;
-    left: 0;
-  } */

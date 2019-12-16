@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import voWork from "../../images/voice-work.jpg"
+// import AnchorLink from 'react-anchor-link-smooth-scroll'
 import './Work.css'
 import VideoPlayer from '../../Components/VideoPlayer'
 
@@ -8,11 +8,15 @@ import VideoPlayer from '../../Components/VideoPlayer'
 export class Work extends Component {
     render() {
         return (
-            <div>
+            <div className="work-wrapper">
                 <section id="work">
-                    <h2>Work</h2>
+                    <h1>Work</h1>
+                <img src={voWork} className="work-img" alt="work title bar" />
                 </section>
-                <VideoPlayer/>
+                <div className="work-video">
+
+                <VideoPlayer />
+                </div>
             </div>
         )
     }

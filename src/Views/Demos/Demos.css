@@ -1,0 +1,148 @@
+.Demos {
+    text-align: center;
+    font-family: gdsherpa, Helvetica, Arial, sans-serif;
+    
+  }
+  
+  .Demos-demo {
+    /* border: solid 5px green; */
+    width: 100%;
+    height: 6rem;
+    margin: 0;
+    margin-top: 5rem;
+  }
+  .Demos-demo h1 {
+    width: 100%;
+    color: white;
+    position: absolute;
+    font-size: 7rem;
+    font-weight: bold;
+    margin-top: auto;
+    
+  }
+  
+  .Demos-demo-img {
+    width: 100%;
+    height: 9rem;
+  }
+  
+  .Demos-commercial {
+    position: absolute;
+    margin-top: -18rem;
+    margin-left: -25rem;
+  }
+  
+  .Demos-commercialText {
+    position: relative;
+    margin-top: -1.5rem;
+  }
+  
+  .Demos-narration {
+    position: absolute;
+    margin-top: -13rem;
+    margin-left: -25rem;
+  }
+  .Demos-narrationText {
+    position: relative;
+    margin-top: -1.5rem;
+  }
+  
+  .Demos-email {
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .Demos-logo {
+    height: 8rem;
+    padding-bottom: 4rem;
+  }
+  .Demos-mainPic {
+    width: 100%;
+  }
+  
+  .Demos-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #6c6c6c;
+    margin-bottom: 5rem;
+  }
+  
+  .Demos-mainPic-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .Demos-auth {
+    margin-top: 3rem;
+    width: 9.9rem;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .Demos-available {
+    font-size: 2rem;
+    color: #3b3b3b;
+  }
+  
+  .Demos-contact {
+    margin-top: 2rem;
+    color: #38a8aa;
+    width: 9rem;
+    height: 2rem;
+    font-size: 1.25rem;
+    border: 2px solid #38a8aa;
+    margin-bottom: 5rem;
+  }
+  
+  .Demos-playImageCommercial {
+    width: 1.5rem;
+    margin: auto;
+    align-content: center;
+  }
+  
+  .Demos-play-outer-container {
+    padding: 1rem;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .Demos-play-container {
+    border-radius: 25px;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 9rem;
+    height: 2.5rem;
+    background: black;
+  }
+  
+  .Demos-textCommercial {
+    padding-right: 0.7rem;
+    font-size: 1rem;
+    color: white;
+    margin: auto;
+    text-align: center;
+    border: transparent;
+    align-content: left;
+  }
+  
+  .Demos-playImageNarration {
+    width: 1.5rem;
+    margin: auto;
+    align-content: center;
+    border: transparent;
+  }
+  .Demos-textNarration {
+    padding-right: 1.6rem;
+    font-size: 1rem;
+    color: white;
+    margin: auto;
+    text-align: center;
+    border: transparent;
+  }
+  

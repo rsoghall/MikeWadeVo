@@ -4,6 +4,27 @@
   
 }
 
+.App-demo {
+  /* border: solid 5px green; */
+  width: 100%;
+  height: 6rem;
+  margin-top: 5rem;
+}
+.App-demo h1 {
+  width: 100%;
+  color: white;
+  position: absolute;
+  font-size: 5rem;
+  font-weight: bold;
+  margin-top: auto;
+  
+}
+
+.App-demo-img {
+  width: 100%;
+  height: 6rem;
+}
+
 .App-commercial {
   position: absolute;
   margin-top: -18rem;
@@ -26,7 +47,7 @@
 }
 
 .App-email {
-  margin-top: 8rem;
+  margin-top: 4rem;
   font-size: 1.5rem;
   margin-bottom: 2rem;
 }
@@ -51,7 +72,7 @@
 
 .App-mainPic-container {
   position: relative;
-  width: 60%;
+  width: 100%;
 }
 
 .App-auth {
