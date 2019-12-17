@@ -4,7 +4,7 @@ import NavBar from "./NavBar/NavBar";
 import Work from "./Views/Work/Work";
 import Demos from "./Views/Demos/Demos";
 import Testimonial from "./Views/Testimonial/Testimonial";
-import Bio from "./Views/Bio/Bio";
+import About from "./Views/About/About";
 
 
 class App extends Component {
@@ -17,7 +17,7 @@ class App extends Component {
         <Demos />
         <Testimonial />
         <Work />
-        <Bio />
+        <About />
         
            
             

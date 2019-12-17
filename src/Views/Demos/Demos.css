@@ -9,21 +9,12 @@
     width: 100%;
     height: 6rem;
     margin: 0;
-    margin-top: 5rem;
-  }
-  .Demos-demo h1 {
-    width: 100%;
-    color: white;
-    position: absolute;
-    font-size: 7rem;
-    font-weight: bold;
-    margin-top: auto;
-    
+    margin-top: 3.1rem;
   }
   
   .Demos-demo-img {
     width: 100%;
-    height: 9rem;
+    height: 6rem;
   }
   
   .Demos-commercial {
@@ -105,11 +96,23 @@
   }
   
   .Demos-play-outer-container {
-    padding: 1rem;
-    margin: 0 auto;
+    width: 100%;
+    /* padding: 1rem; */
+    margin-top: auto;
     position: absolute;
-    top: 0;
-    left: 0;
+    /* top: 0; */
+    /* left: 0; */
+    display: flex;
+    align-items: center;
+  }
+  .Demos-demo h1 {
+    width: 100%;
+    color: white;
+    position: absolute;
+    font-size: 7rem;
+    font-weight: bold;
+    margin-top: auto;
+    
   }
   .Demos-play-container {
     border-radius: 25px;

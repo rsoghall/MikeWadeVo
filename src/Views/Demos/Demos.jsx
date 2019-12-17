@@ -56,17 +56,10 @@ class Demos extends Component {
 
     return (
       <div>
-        {/* <NavBar/> */}
       <div className="Demos">
           <header className="Demos-header">
             <div className="Demos-demo" >
-            <h1>Demos</h1>
             <img src={demoBar} className="Demos-demo-img" alt="demo title bar" />
-            </div>
-          <div className="Demos-email">mike@mikewadevo.com</div>
-            <img src={logo} className="Demos-logo" alt="logo" />
-          <div className="Demos-mainPic-container">
-            <img src={mainPic} className="Demos-mainPic" alt="Microphne" />
             <div className="Demos-play-outer-container">
               <div className="Demos-play-container">
                 <button style={{ outline: "none", background: "transparent", border: "none" }}>
@@ -91,16 +84,16 @@ class Demos extends Component {
                 <p className="Demos-textNarration">Narration</p>
               </div>
             </div>
+            </div>
+          <div className="Demos-email">mike@mikewadevo.com</div>
+            <img src={logo} className="Demos-logo" alt="logo" />
+          <div className="Demos-mainPic-container">
+            <img src={mainPic} className="Demos-mainPic" alt="Microphne" />
           </div>
-          {/* <div className="Demos-auth">Authentic VO Keeping You Relevant</div> */}
-          {/* <div className="Demos-available">
-            {" "}
-            Currently available for auditions!
-          </div> */}
-          {/* <button className="Demos-contact">Contact Me</button> */}
+        
           </header>
           
-          {/* <Work /> */}
+         
           
         
 

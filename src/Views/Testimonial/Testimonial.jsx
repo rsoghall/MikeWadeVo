@@ -4,9 +4,12 @@ import "./Testimonial.css"
 export class Testimonial extends Component {
     render() {
         return (
-            <div className="Testimonials">
+            <div className="Testimonials-wrapper">
+                <section id="Testimonials">
+
               <h1>Testimonials</h1>
                 <img src={testimonial} className="Testimonial-img" alt="demo title bar" />
+                </section>
                 <div className="Testimonials-text">
                     <div>
                         <p className="Testimonial1">"Mike, love your big, bold mature sound - your tone is authoritative, and you have a super deep resonance that is gorgeous. You have a nice expression in your delivery; your voice really makes people sit up and take notice. Easily one of the best talents. GREAT to listen to!"
