@@ -28,9 +28,17 @@ export class Testimonial extends Component {
                                        - Perrylayne Decker-Take 
                         </div>
                         </p>
-                        
                     </div>
+                        
                 </div>
+                    <div>
+                        <p className="Testimonial3">
+                            As a personal develpment coach I wanted my book read by someone who cared about the message I delivered as much as I did. Mike Wade was that person for me. The way he presented my book made me excited to listen to it and have others listen to it as well. I have been trying to get a professional to record my book but all the people I interviewed seemed to care more about getting the “job” then the message itself. Thank you Mike for taking so much time and energy with this project and for going above and beyond to make sure it was exactly how I wanted it to be. You rock. 
+                            <div className="Testimonial3-sig3">
+                                       - Tyler Watson 
+                        </div>
+                        </p>
+                        </div>
                     <div className="Testimonial-available">
                         Currently available for auditions!
                         </div>

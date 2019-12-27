@@ -28,38 +28,60 @@
   }
 
   .Testimonials-text {
+    /* border: solid 5px orange; */
     margin-top: 8rem;
     display: flex;
+    flex-direction: column;
     width: 100%;
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.50rem;
+    /* flex-wrap: wrap; */
   }
 
   .Testimonial1 {
     margin-left: 10rem;
+    /* text-aliGN:  center; */
+    align-content: center;
     width: 70%;
     line-height: 32px;
   }
 
   .Testimonial1-sig1 {
     margin-top: 2rem;
-    margin-left: 17rem;
+    margin-left: 27rem;
   }
 
   .Testimonial2 {
-    margin-right: 12rem;
+    margin-top: 2rem;
+    align-content: center;
+    margin-left: 10rem;
     line-height: 32px;
-    width: 80%;
+    width: 74%;
   }
 
   .Testimonial2-sig2 {
     margin-top: 2rem;
+    margin-left: 42rem;
+  }
+
+  .Testimonial3 {
+    margin-left: 10rem;
+    line-height: 32px;
+    width: 80%;
+    font-size: 1.50rem;
+    text-align: left;
+  }
+
+  .Testimonial3-sig3 {
+    margin-top: 2rem;
     margin-left: 19rem;
+    margin-left: 42rem;
   }
 
   .Testimonial-available {
-    margin-top: 8rem;
+    margin-top: 4rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3.5rem;
+    margin-bottom: 5rem;
   }

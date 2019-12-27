@@ -7,7 +7,12 @@ export class NavBar extends Component {
         return (
 
             <div className="navbar-container">
+                <div>
+                    <a href="#Demos-demo-img">
+                        
                 <img className="navbar-logo" src={logo} alt="Mike Wade logo" />
+                </a>
+                </div>
                 <a href="#Testimonials" > Testimonials</a>
                 <a href="#work" > Work </a>
                 <a href="#About" > About</a>

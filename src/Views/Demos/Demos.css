@@ -12,7 +12,7 @@
     margin-top: 3.1rem;
   }
   
-  .Demos-demo-img {
+  #Demos-demo-img {
     width: 100%;
     height: 6rem;
   }
@@ -98,12 +98,13 @@
   .Demos-play-outer-container {
     width: 100%;
     /* padding: 1rem; */
-    margin-top: auto;
+    margin-top: 5rem;
     position: absolute;
     /* top: 0; */
     /* left: 0; */
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    /* align-items: center; */
   }
   .Demos-demo h1 {
     width: 100%;
@@ -148,4 +149,20 @@
     text-align: center;
     border: transparent;
   }
+  
+  audio {
+    width: 12rem;
+    height: 2.5rem;
+    position: relative;
+  }
+
+  body.modal-open {
+    
+    overflow: hidden;
+    position: fixed;
+}
+body.viewport-lg {
+   
+    position: absolute; 
+}
   
