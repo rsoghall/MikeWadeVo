@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import testimonial from "../../images/testimonial-2.png"
+import Enrollment from "../../images/twEnrollment.png"
 import "./Testimonial.css"
 export class Testimonial extends Component {
     render() {
@@ -11,6 +12,15 @@ export class Testimonial extends Component {
                 <img src={testimonial} className="Testimonial-img" alt="demo title bar" />
                 </section>
                 <div className="Testimonials-text">
+                    <div>
+                        <img src={Enrollment} className="Testimonial-book" alt="Enrollment Effect Book Cover"/>
+                        <p className="Testimonial3">
+                            "As a personal develpment coach I wanted my book read by someone who cared about the message I delivered as much as I did. Mike Wade was that person for me. The way he presented my book made me excited to listen to it and have others listen to it as well. I have been trying to get a professional to record my book but all the people I interviewed seemed to care more about getting the 'job' then the message itself. Thank you Mike for taking so much time and energy with this project and for going above and beyond to make sure it was exactly how I wanted it to be. You rock!". 
+                            <div className="Testimonial3-sig3">
+                                       - Tyler Watson 
+                        </div>
+                        </p>
+                        </div>
                     <div>
                         <p className="Testimonial1">"Mike, love your big, bold mature sound - your tone is authoritative, and you have a super deep resonance that is gorgeous. You have a nice expression in your delivery; your voice really makes people sit up and take notice. Easily one of the best talents. GREAT to listen to!"
               
@@ -29,19 +39,18 @@ export class Testimonial extends Component {
                         </div>
                         </p>
                     </div>
-                        
-                </div>
                     <div>
-                        <p className="Testimonial3">
-                            As a personal develpment coach I wanted my book read by someone who cared about the message I delivered as much as I did. Mike Wade was that person for me. The way he presented my book made me excited to listen to it and have others listen to it as well. I have been trying to get a professional to record my book but all the people I interviewed seemed to care more about getting the “job” then the message itself. Thank you Mike for taking so much time and energy with this project and for going above and beyond to make sure it was exactly how I wanted it to be. You rock. 
-                            <div className="Testimonial3-sig3">
-                                       - Tyler Watson 
+                        <p className="Testimonial4">
+                        "Mike has an amazing voice and attention to detail. He's transformed my two books into a production that I'm proud to share with the world. Thanks again Mike!"
+                            <div className="Testimonial4-sig4">
+                                       - Ryan Nickel
                         </div>
                         </p>
                         </div>
                     <div className="Testimonial-available">
                         Currently available for auditions!
                         </div>
+                </div>
             </div>
         )
     }

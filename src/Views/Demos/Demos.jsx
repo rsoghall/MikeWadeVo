@@ -106,11 +106,16 @@ class Demos extends Component {
                 </div>
               </div>
             </div>
-            <div className="Demos-email">
+            <div className="Demos-logoemail">
 
-            <a href="mailto:mike@mikewadevo.com">mike@mikewadevo.com</a>
-            </div>
+            <div >
             <img src={logo} className="Demos-logo" alt="logo" />
+            </div>
+                <a
+                  className="Demos-email"
+                  href="mailto:mike@mikewadevo.com">mike@mikewadevo.com
+                  </a>
+            </div>
             <div className="Demos-mainPic-container">
               <img src={mainPic} className="Demos-mainPic" alt="Microphne" />
             </div>

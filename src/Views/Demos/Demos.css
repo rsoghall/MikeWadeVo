@@ -38,13 +38,33 @@
     margin-top: -1.5rem;
   }
   
-  .Demos-email {
-    margin-top: 4rem;
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+  .Demos-logoemail {
+    margin-left: 20rem;
+    height: 20rem;
+    width: 75%;
+    /* border: solid 5px purple; */
+    display: flex;
+    justify-content: center;
+
   }
+  
+  .Demos-email {
+    margin-left: 2rem;
+    margin-top: 10rem;
+    color: gray;
+    font-size: 1.75rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+  
+  }
+  
+  
   .Demos-logo {
-    height: 8rem;
+    margin-top: 4rem;
+    width: 70%;
+    /* border: solid 5px red; */
+    /* height: 5rem; */
+    height: 11rem;
     padding-bottom: 4rem;
   }
   .Demos-mainPic {
@@ -96,7 +116,7 @@
   }
   
   .Demos-play-outer-container {
-    width: 100%;
+    width: 25%;
     /* padding: 1rem; */
     margin-top: 5rem;
     position: absolute;
