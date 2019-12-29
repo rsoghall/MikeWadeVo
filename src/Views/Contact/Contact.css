@@ -1,0 +1,27 @@
+#contact h1 {
+    width: 100%;
+    color: white;
+    position: absolute;
+    font-size: 7rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#contact img {
+    padding-top: 5.5rem;
+    width: 100%;
+    height: 9rem;
+  }
+
+.Contact-email a {
+    font-size: 5rem;
+}
+
+.Contact-email {
+    width: 100%;
+    margin-top: 15rem;
+    text-align: center;
+    /* font-size: 10rem; */
+}
+
