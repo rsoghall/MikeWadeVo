@@ -6,7 +6,7 @@ const path = require("path");
 const app = express();
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json())
-const { SERVER_PORT, MAIL_USER, MAIL_PASSWORD, FROM, TO} = process.env
+const { SERVER_PORT, MAIL_USER, MAIL_PASSWORD} = process.env
 app.use(express.static(path.join(__dirname, "../build")));
 const transporter = nodemailer.createTransport({
     service: 'gmail', 
