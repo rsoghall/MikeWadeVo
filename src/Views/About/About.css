@@ -1,6 +1,6 @@
 .About-wrapper {
       width: 100%;
-      margin-bottom: 10rem;
+      margin-bottom: 13.5rem;
     }
 
     #About {
@@ -10,21 +10,22 @@
     }
   
     #About h1 {
-      width: 100%;
-      color: white;
-      position: absolute;
-      font-size: 7rem;
-      font-weight: bold;
+    width: 100%;
+    color: white;
+    position: absolute;
+    font-size: 7rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 4rem;
     }
   
     #About img {
-      padding-top: 5.5rem;
+      padding-top: 4rem;
       width: 100%;
       height: 9rem;
     }
 
     .About-info {
-        /* border: solid 5px red; */
         margin-top: 10rem;
         width: 100%;
     }

@@ -10,10 +10,9 @@ const VideoPlayer = () => {
             className='react-player'
                   url="https://dianne-adair-s3.s3-us-west-1.amazonaws.com/Videos/epilogFinal2.mp4"
                   
-            width='50%'
-                  height='50%'
+            width='40%'
+                  height='40%'
                   controls={true}
-                //   light={true}
           />
         </div>
       )

@@ -8,7 +8,7 @@ export class NavBar extends Component {
 
             <div className="navbar-container">
                 <div>
-                    <a href="#Demos-demo-img">
+                    <a href="#Demos-home-bar">
                         
                 <img className="navbar-logo" src={logo} alt="Mike Wade logo" />
                 </a>

@@ -10,25 +10,17 @@ import "./Demos.css";
 
 const customStyles = {
   content: {
-    top: "39%",
-    left: "20%",
+    top: "31%",
+    left: "15%",
     position: "absolute",
-    // right: "auto",
     bottom: "auto",
     padding: "0",
     width: "12rem",
-    // height: "1rem",
-    // display: "flex",
-    // justifyContent: "center",
-    // marginRight: "-50%",
     transform: "translate(-50%, -50%)",
     border: "none",
     borderRadius: "50px",
     background: "transparent",
-    // height: "100vh",
-    // overflowY: "hidden",
-    // paddingRight: "15px",
-  },
+    },
   overlay: {
     background: "transparent"
   }
@@ -48,7 +40,6 @@ class Demos extends Component {
   };
 
   afterOpenModal() {
-    // references are now sync'd and can be accessed.
     this.subtitle.style.color = "#f00";
   }
 
@@ -64,11 +55,13 @@ class Demos extends Component {
         <div className="Demos">
           <header className="Demos-header">
             <div className="Demos-demo">
+              <section id="Demos-home-bar">
               <img
                 src={demoBar}
                 id="Demos-demo-img"
                 alt="demo title bar"
-              />
+                />
+                </section>
               <div className="Demos-play-outer-container">
                 <div className="Demos-play-container">
                   <button
