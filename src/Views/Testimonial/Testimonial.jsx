@@ -47,7 +47,7 @@ export class Testimonial extends Component {
                     When we needed adjustments done he was efficient and clear. 
                     Made it easy on our end!" 
                         <div className="Testimonial2-sig2">
-                                       - Perrylayne Decker-Take 
+                                       - Perrylayne Decker-Tate 
                         </div>
                         </p>
                     </div>
